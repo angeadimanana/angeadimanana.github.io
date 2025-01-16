@@ -1,8 +1,131 @@
-<html>
-  <head>
-    <title> CIMPA School Sample Webpage</title>
-  </head>
-  <body>
-    Hello World.
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Scientist Name">
+    <meta name="description" content="Homepage of [Scientist's Name], researcher in enumerative and analytic combinatorics">
+    <title>[Scientist's Name] - Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            margin: 20px;
+        }
+        h2 {
+            color: #007BFF;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .content > div {
+            flex: 1;
+            padding: 10px;
+            min-width: 250px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>[Scientist's Name]</h1>
+        <p>Researcher in Enumerative and Analytic Combinatorics</p>
+    </header>
+    
+    <nav>
+        <a href="#cv">CV</a>
+        <a href="#research">Research Interests</a>
+        <a href="#publications">Publications</a>
+        <a href="#tasks">Tasks</a>
+    </nav>
+
+    <section id="cv">
+        <h2>Curriculum Vitae</h2>
+        <div class="content">
+            <div>
+                <h3>Education</h3>
+                <ul>
+                    <li><strong>PhD in Mathematics</strong>, University XYZ, 20XX-20XX</li>
+                    <li><strong>MS in Mathematics</strong>, University ABC, 20XX-20XX</li>
+                    <li><strong>BS in Mathematics</strong>, University DEF, 20XX-20XX</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Professional Experience</h3>
+                <ul>
+                    <li><strong>Postdoctoral Researcher</strong>, Institute of Combinatorics, 20XX-Present</li>
+                    <li><strong>Assistant Professor</strong>, Department of Mathematics, University XYZ, 20XX-20XX</li>
+                    <li><strong>Graduate Teaching Assistant</strong>, University ABC, 20XX-20XX</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="research">
+        <h2>Research Interests</h2>
+        <p>I specialize in enumerative and analytic combinatorics, focusing on the following areas:</p>
+        <ul>
+            <li>Enumerative counting of combinatorial structures</li>
+            <li>Asymptotic analysis of combinatorial sequences</li>
+            <li>Applications of generating functions in combinatorics</li>
+            <li>Exact and approximate methods in counting problems</li>
+        </ul>
+    </section>
+
+    <section id="publications">
+        <h2>Publications</h2>
+        <ul>
+            <li><strong>[Author(s)], Title of the Paper</strong>, Journal Name, Year.</li>
+            <li><strong>[Author(s)], Title of the Paper</strong>, Journal Name, Year.</li>
+            <li><strong>[Author(s)], Title of the Paper</strong>, Journal Name, Year.</li>
+        </ul>
+    </section>
+
+    <section id="tasks">
+        <h2>Current Tasks</h2>
+        <ul>
+            <li>Research on asymptotic enumeration of combinatorial classes.</li>
+            <li>Writing a paper on generating functions for non-crossing partitions.</li>
+            <li>Collaborating with a team on an algorithmic approach to counting graph structures.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 [Scientist's Name]. All rights reserved.</p>
+    </footer>
+</body>
 </html>
+
